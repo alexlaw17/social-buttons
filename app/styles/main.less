@@ -1,0 +1,146 @@
+@import "../bower_components/bootstrap/less/bootstrap.less";
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+@FontAwesomePath: "../fonts";
+
+// ----------------------------------------------
+// 	Basic Stuff
+// ----------------------------------------------
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #F9F9F9;
+}
+
+* {
+    outline: none !important;
+    &:focus, &:hover, &:active {
+        outline: none !important;
+    }
+}
+
+a {
+    &:hover, &:focus, &:active {
+        text-decoration: none;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+// ----------------------------------------------
+// 	Styles
+// ----------------------------------------------
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+    padding: 200px 0;
+}
+
+
+.social-media {
+	width: 100%;
+	margin: 0 auto;
+	height: 52px;
+
+	a {
+		color: #fff;
+		text-align: center;
+		width: 45px;
+		height: 45px;
+		border-radius: 50%;
+		display: inline-block;
+		box-shadow: 0px 5px 10px rgba(34, 34, 34, 0.4);
+		font-size:  22px;
+		padding-top: 8px;
+		transition: all 0.3s cubic-bezier(0,.89,0,1);
+		&:hover {
+			transform: translateY(-4px);
+			box-shadow: 0px 10px 10px rgba(34, 34, 34, 0.4);
+			font-size: 25px;
+			padding-top: 5px;
+		}
+		&:active {
+			transform: translateY(4px);
+			box-shadow: 0px 0px 4px rgba(34, 34, 34, 0.4);
+			font-size: 21px;
+			padding-top: 9px;
+		}
+	}
+
+	.fb {
+		background-color: #3B5998;
+	}
+
+	.twitter {
+		background-color: #4CB5FF;
+	}
+
+	.google {
+		background-color: #E93045;
+	}
+	
+	.soundcloud {
+		background-color: #FF6800;
+	}
+
+	.apple {
+		background-color: #fff;
+		color: #A6B1B7;
+	}
+
+	.tumblr {
+		background-color: #2C4762;
+	}
+
+	.yelp {
+		background-color: #BE1101;
+	}
+
+	.spotify {
+		background-color: #AED000;
+		color: #000;
+	}
+
+	.dribbble {
+		background-color: #E04C86;
+	}
+
+	.heart {
+		background-color: #303F9F;
+		color: #FF1744;
+	}
+	.steam {
+		background-color: #020202;
+	}
+
+	.skype {
+		background-color: #00AFF0;
+	}
+
+	.github {
+		background-color: #4E277A;
+	}
+
+	.play {
+		background-color: #FF5722;
+		color: #FFEB3B;
+	}
+
+	.arrow-down {
+		background-color: #FF4081;
+	}
+
+	.diamond {
+		background-color: #FAFAFA;
+		color: #00BCD4;
+	}
+}
